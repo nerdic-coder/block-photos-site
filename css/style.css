@@ -89,7 +89,7 @@ p.lead {
 }
 
 .text-primary {
-    color: #e38cb7 !important;
+    color: #220631 !important;
 }
 
 .light-font {
@@ -643,4 +643,10 @@ header {
 
 .donate-with-crypto {
     width: 100% !important;
+    background: #220631 linear-gradient(#220631, #3c0b57) !important;
+}
+
+.donate-with-crypto:active {
+    width: 100% !important;
+    background: #3c0b57 linear-gradient(#3c0b57, #220631) !important;
 }

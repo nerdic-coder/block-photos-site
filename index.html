@@ -26,6 +26,7 @@ URI     : https://colorlib.com
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <!-- Themify Icons -->
     <link rel="stylesheet" href="css/themify-icons.css">
+    <link rel="stylesheet" href="css/cryptocoins.css">
     <!-- Owl carousel -->
     <link rel="stylesheet" href="css/owl.carousel.min.css">
     <!-- Main css -->
@@ -86,7 +87,7 @@ URI     : https://colorlib.com
                                 <span class="ti-face-smile gradient-fill ti-3x mr-3"></span>
                                 <div class="media-body">
                                     <h4 class="card-title">Simple</h4>
-                                    <p class="card-text">Easy to use, drag and drop upload photos.</p>
+                                    <p class="card-text">Easy to use, drag and drop upload photos or hand pick them in a dialog box.</p>
                                 </div>
                             </div>
                         </div>
@@ -112,7 +113,7 @@ URI     : https://colorlib.com
                                 <span class="ti-lock gradient-fill ti-3x mr-3"></span>
                                 <div class="media-body">
                                     <h4 class="card-title">Secure</h4>
-                                    <p class="card-text">Your photos is encrypted securly on the Blockstack storage service.</p>
+                                    <p class="card-text">Your photos is encrypted on the Blockstack storage service.</p>
                                 </div>
                             </div>
                         </div>
@@ -138,7 +139,7 @@ URI     : https://colorlib.com
                 </div>
             </div>
             <div class="perspective-phone">
-                <img src="images/perspective.png" alt="perspective phone" class="img-fluid">
+                <img src="images/perspective-2.png" alt="perspective phone" class="img-fluid">
             </div>
         </div>
 
@@ -187,35 +188,62 @@ URI     : https://colorlib.com
     </div>
     <!-- // end .section -->
 
-    <div class="section" id="pricing">
+    <div class="section light-bg">
+
         <div class="container">
-            <div class="section-title">
-                <small>Help us succeed</small>
-                <h3>DONATIONS</h3>
-            </div>
-
-            <div class="card-deck">
-                
-                <div class="card pricing popular">
-                    <div class="card-head">
-                        <small class="text-primary">If you enjoy Block Photos consider sending us a crypto donation.</small>
-                    </div>
-                    <div class="card-body">
-                        <div>
-                            <a class="donate-with-crypto"
-                               href="https://commerce.coinbase.com/checkout/9d35f08b-bd51-40b0-a502-b88250cffc6b">
-                              <span>Donate with Crypto</span>
-                            </a>
-                            <script src="https://commerce.coinbase.com/v1/checkout.js?version=201807">
-                            </script>
-                          </div>
-                    </div>
+            <div class="row">
+                <div class="col-md-8 d-flex align-items-center">
+                    <ul class="list-unstyled ui-steps">
+                        <li class="media">
+                            <div class="circle-icon mr-4">1</div>
+                            <div class="media-body">
+                                <h5>Create a Blockstack Account</h5>
+                                <p>Block Photos is using <a href="https://browser.blockstack.org/" target="_blank">Blockstack</a> as authentication provider that makes sure that your photos is stored safe behind a secret key using similar technology that keeps your Bitcoins safe.</p>
+                            </div>
+                        </li>
+                        <li class="media my-4">
+                            <div class="circle-icon mr-4">2</div>
+                            <div class="media-body">
+                                <h5>Upload your photos</h5>
+                                <p>You can upload your photos from your smartphone, tablet or desktop computer. All the photos will be synced between all your devices.</p>
+                            </div>
+                        </li>
+                        <li class="media">
+                            <div class="circle-icon mr-4">3</div>
+                            <div class="media-body">
+                                <h5>Enjoy your privacy</h5>
+                                <p>All your photos will later be stored in the storage service of your choosing (Currently only Blockstack standard free storage is available) and they are stored encrypted, so no third party corporation will have access to any of your photos.</p>
+                            </div>
+                        </li>
+                    </ul>
                 </div>
-                
+                <div class="col-md-4">
+                    <img src="images/phone-1.png" alt="Android app screenshot" class="img-fluid">
+                </div>
+
             </div>
-            <!-- // end .pricing -->
 
+        </div>
 
+    </div>
+    <!-- // end .section -->
+
+    <div class="section bg-gradient">
+        <div class="container">
+            <div class="call-to-action">
+
+                <div><i class="cc BTC" title="BTC" style="font-size: 3rem;"></i></div>
+                <h2>DONATIONS</h2>
+                <p class="tagline">If you enjoy Block Photos consider sending us a crypto donation.</p>
+                <div class="my-4">
+                    <a class="donate-with-crypto"
+                        href="https://commerce.coinbase.com/checkout/9d35f08b-bd51-40b0-a502-b88250cffc6b">
+                        <span>Donate with Crypto</span>
+                    </a>
+                    <script src="https://commerce.coinbase.com/v1/checkout.js?version=201807">
+                    </script>
+                </div>
+            </div>
         </div>
 
     </div>
