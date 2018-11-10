@@ -1,0 +1,4 @@
+This is a Brave Payments publisher verification file.
+
+Domain: block-photos.com
+Token: 581e98b875d32aafa61e3e9e3c0103640867d5caa3952d9105e1adc33638d63c
