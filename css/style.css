@@ -650,3 +650,7 @@ header {
     width: 100% !important;
     background: #3c0b57 linear-gradient(#3c0b57, #220631) !important;
 }
+
+.call-to-action img#producthunt {
+    width: 80px;
+}
