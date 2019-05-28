@@ -260,19 +260,19 @@ header {
     overflow: hidden;
 }
 
-@media (max-width:1200px) {
+/* @media (max-width:1200px) {
     .img-holder {
         padding-bottom: 50%;
     }
-}
+} */
 
 @media (max-width:767px) {
     .tagline {
         font-size: 17px;
     }
-    .img-holder {
+    /* .img-holder {
         padding-bottom: 100%;
-    }
+    } */
 }
 
 
