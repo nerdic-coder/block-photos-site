@@ -29,6 +29,7 @@ URI     : https://colorlib.com
     <link rel="stylesheet" href="css/cryptocoins.css">
     <!-- Owl carousel -->
     <link rel="stylesheet" href="css/owl.carousel.min.css">
+
     <!-- Main css -->
     <link href="css/style.css" rel="stylesheet">
 </head>
@@ -62,11 +63,77 @@ URI     : https://colorlib.com
 
     <header class="bg-gradient" id="home">
         <div class="container mt-5">
-            <h1>Your Photo Albums on your own terms</h1>
+            <h1>Your Photo Album on your own terms</h1>
             <p class="tagline">One of the most secure solutions for storing your photos in the cloud with amazing privacy.</p>
         </div>
         <div class="img-holder mt-3"><img src="images/splash.png" alt="Block Photos Banner Images" class="img-fluid"></div>
     </header>
+
+    <div class="section">
+
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 offset-lg-6">
+                    <div class="box-icon"><span class="ti-mobile gradient-fill ti-3x"></span></div>
+                    <h2>Upload your first photo!</h2>
+                    <p class="mb-4">Start using Block Photos today to store your photos in the most secure way possible.</p>
+                    <a href="https://app.block-photos.com" class="btn btn-primary">Get Started</a>
+                </div>
+            </div>
+            <div class="perspective-phone">
+                <img src="images/perspective-2.png" alt="perspective phone" class="img-fluid">
+            </div>
+        </div>
+
+    </div>
+    <!-- // end .section -->
+
+    <div class="section light-bg" id="gallery">
+        <div class="container">
+            <div class="section-title">
+                <small>GALLERY</small>
+                <h3>Screenshots</h3>
+            </div>
+
+            <!-- Slideshow container -->
+            <div class="slideshow-container">
+
+                <!-- Full-width images with number and caption text -->
+                <div class="mySlides">
+                <img src="images/screenshot-1.png" style="width:100%">
+                </div>
+            
+                <div class="mySlides">
+                <img src="images/screenshot-2.png" style="width:100%">
+                </div>
+            
+                <div class="mySlides">
+                <img src="images/screenshot-3.png" style="width:100%">
+                </div>
+
+                <div class="mySlides">
+                <img src="images/screenshot-4.png" style="width:100%">
+                </div>
+            
+                <!-- Next and previous buttons -->
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            </div>
+            <br>
+            
+            <!-- The dots/circles -->
+            <div style="text-align:center">
+                <span class="dot" onclick="currentSlide(1)"></span> 
+                <span class="dot" onclick="currentSlide(2)"></span> 
+                <span class="dot" onclick="currentSlide(3)"></span> 
+                <span class="dot" onclick="currentSlide(4)"></span> 
+            </div>
+
+
+        </div>
+
+    </div>
+    <!-- // end .section -->
 
     <div class="section light-bg" id="features">
 
@@ -98,10 +165,10 @@ URI     : https://colorlib.com
                     <div class="card features">
                         <div class="card-body">
                             <div class="media">
-                                <span class="ti-settings gradient-fill ti-3x mr-3"></span>
+                                <span class="ti-zoom-in gradient-fill ti-3x mr-3"></span>
                                 <div class="media-body">
-                                    <h4 class="card-title">Customize</h4>
-                                    <p class="card-text">Pick your own storage provider with Blockstack (coming later).</p>
+                                    <h4 class="card-title">View</h4>
+                                    <p class="card-text">View your photos in detail with the zoom mode in the photo viewer.</p>
                                 </div>
                             </div>
                         </div>
@@ -132,22 +199,16 @@ URI     : https://colorlib.com
     <div class="section light-bg">
         <div class="container">
             <div class="section-title">
-                <small>FEATURES</small>
-                <h3>Do more with Block Photos app</h3>
+                <h3>About</h3>
             </div>
 
-            <ul class="nav nav-tabs nav-justified" role="tablist">
-                <li class="nav-item">
-                    <a class="nav-link active" data-toggle="tab" href="#about">About</a>
-                </li>
-            </ul>
             <div class="tab-content">
                 <div class="tab-pane fade show active" id="about">
                     <div class="d-flex flex-column flex-lg-row">
                         <div>
-                            <p>Block Photos is a photo album that stores your photos encrypted on a storage provider of
+                            <p>Block Photos is a photos app that stores your photos encrypted on a storage provider of
                                 your choosing. For the time being you can only pick the default Blockstack storage or
-                                creating your own Gaia Hub.
+                                creating your own storage provider (for advanced users).
                             </p>
                             <p>
                                 The Blockstack authentication and storage encryption makes sure only you can access
@@ -161,7 +222,8 @@ URI     : https://colorlib.com
                                 * Upload photos with drag and drop from your computer directly into Block Photos.<br />
                                 * View your photos in a grid and a photos viewer.<br />
                                 * Rotate photos.<br />
-                                * Delete photos.
+                                * Download photos to your computer.<br />
+                                * Create Photo Albums.
                             </p>
                             <p>And much more to come!</p>
                         </div>
@@ -172,69 +234,29 @@ URI     : https://colorlib.com
     </div>
     <!-- // end .section -->
 
-    <div class="section">
-
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-6 offset-lg-6">
-                    <div class="box-icon"><span class="ti-mobile gradient-fill ti-3x"></span></div>
-                    <h2>Discover our App</h2>
-                    <p class="mb-4">You can start using the Block Photos app directly in the web version by clicking
-                        the button below. </p>
-                    <a href="https://app.block-photos.com" class="btn btn-primary">Open App</a>
-                </div>
-            </div>
-            <div class="perspective-phone">
-                <img src="images/perspective-2.png" alt="perspective phone" class="img-fluid">
-            </div>
-        </div>
-
-    </div>
-    <!-- // end .section -->
-
     <div class="section bg-gradient">
         <div class="container">
             <div class="call-to-action">
 
                 <div class="box-icon"><span class="ti-mobile gradient-fill ti-3x"></span></div>
                 <h2>Downloads</h2>
-                <p class="tagline">Version 2.0 available for Android, Mac and Windows.<br/>
+                <p class="tagline">Version 4.0 is available in Google Play for Android.<br/>
                     For other systems please us the web app above.</p>
                 <div class="my-4">
 
                     <!-- <a href="#" class="btn btn-light"><img src="images/appleicon.png" alt="icon"> App Store</a> -->
                     <a href="https://play.google.com/store/apps/details?id=com.nerdiccoder.blockphotos" class="btn btn-light btn-230"><img
                             src="images/playicon.png" alt="Play icon"> Google play</a>
-                    <a href="https://github.com/nerdic-coder/block-photos/releases/download/v2.0/Block.Photos-2.0.apk" class="btn btn-light btn-230"><img
+                    <a href="https://github.com/nerdic-coder/block-photos/releases/download/v4.0/Block.Photos-4.0.apk" class="btn btn-light btn-230"><img
                         src="images/android-logo.png" alt="Android icon"> Android Installer</a>
 
-                    <a href="https://github.com/nerdic-coder/block-photos/releases/download/v2.0/Block.Photos-2.0.0.dmg" class="btn btn-light btn-230"><img
+                    <!-- <a href="https://github.com/nerdic-coder/block-photos/releases/download/v2.0/Block.Photos-2.0.0.dmg" class="btn btn-light btn-230"><img
                         src="images/appleicon.png" alt="Apple icon"> MacOS Installer</a>
                     <a href="https://github.com/nerdic-coder/block-photos/releases/download/v2.0/Block.Photos-2.0.0.Setup.exe" class="btn btn-light btn-230"><img
-                        src="images/windows-logo.png" alt="Windows icon"> Windows Installer</a>
+                        src="images/windows-logo.png" alt="Windows icon"> Windows Installer</a> -->
 
                 </div>
             </div>
-        </div>
-
-    </div>
-    <!-- // end .section -->
-
-    <div class="section light-bg" id="gallery">
-        <div class="container">
-            <div class="section-title">
-                <small>GALLERY</small>
-                <h3>App Screenshots</h3>
-            </div>
-
-            <div class="img-gallery owl-carousel owl-theme">
-                <img src="images/screen1.jpg" alt="App picture grid">
-                <img src="images/screen2.jpg" alt="App picture viewer">
-                <img src="images/screen3.jpg" alt="Blockstack profile page">
-                <img src="images/screen4.jpg" alt="image">
-                <img src="images/screen5.jpg" alt="image">
-            </div>
-
         </div>
 
     </div>
